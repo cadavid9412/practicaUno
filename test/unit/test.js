@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../index');
+const app = require('../../src/index');
 
 describe('Web Service Tests', () => {
   it('should return the top 5 countries with highest population density', async () => {
